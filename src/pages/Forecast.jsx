@@ -10,7 +10,7 @@ import InfoButton from "../components/InfoButton"
 import DateRangeSlider from "../components/DateRangeSlider"
 import useStickyState from "../hooks/useStickyState"
 
-const API = "http://localhost:8000"
+const API = "https://voltmap-india-backend.onrender.com"
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null

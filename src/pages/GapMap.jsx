@@ -4,7 +4,7 @@ import KPICard from "../components/KPICard"
 import LoadingSkeleton from "../components/LoadingSkeleton"
 import useStickyState from "../hooks/useStickyState"
 
-const API = "http://localhost:8000"
+const API = "https://voltmap-india-backend.onrender.com"
 
 function getColor(gap) {
   if (gap > 30) return "var(--color-urgent)"

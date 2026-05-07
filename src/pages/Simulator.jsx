@@ -9,7 +9,7 @@ import LoadingSkeleton from "../components/LoadingSkeleton"
 import InfoButton from "../components/InfoButton"
 import useStickyState from "../hooks/useStickyState"
 
-const API = "http://localhost:8000"
+const API = "https://voltmap-india-backend.onrender.com"
 
 const SimTooltip = ({ active, payload, label }) => {
   if (!active || !payload?.length) return null
