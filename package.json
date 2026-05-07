@@ -8,9 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r https://github.com/shashi767/VoltMap_India_frontend.git"
+    "deploy": "gh-pages -d dist --repo https://github.com/shashi767/VoltMap_India_frontend.git"
   },
-  "dependencies": {
+  "dependencies": { 
     "axios": "^1.15.1",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
