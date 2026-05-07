@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/VoltMap_India_frontend/',
   plugins: [react()],
-  base: "/VoltMapIndia_frontend/",
 })
